@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#entrada,
+#chat {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#mensagens {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid black;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+input {
+  padding: 6px;
+}
+
+button {
+  padding: 6px 10px;
+}
+
+.mensagem {
+  margin-bottom: 6px;
+}
+
+.sistema {
+  margin-bottom: 6px;
+  font-style: italic;
+}
+
+.erro {
+  color: red;
+}

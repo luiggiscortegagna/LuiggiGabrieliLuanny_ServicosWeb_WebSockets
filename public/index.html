@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>chat-websocket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>chat-websocket</h1>
+
+  <section id="entrada">
+    <p>Digite um nome para entrar</p>
+
+    <input id="nome" type="text" placeholder="Nome">
+    <button id="entrar">Entrar</button>
+  </section>
+
+  <section id="chat" hidden>
+    <button id="sair" type="button">Sair</button>
+
+    <hr>
+
+    <div id="mensagens"></div>
+
+    <hr>
+
+    <form id="formulario">
+      <input id="texto" type="text" placeholder="Mensagem" autocomplete="off">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="client.js"></script>
+</body>
+</html>
